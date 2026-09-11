@@ -1,0 +1,30 @@
+baseURL = 'http://localhost:1313/'
+locale = 'en-us'
+title = 'Gerhard Karbeutz'
+theme = ["PaperMod"]
+
+[permalinks]
+  blog = "/blog/:year/:month/:day/:title/"
+
+[params]
+  env = "production"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  ShowShareButtons = false
+  ShowWordCount = false
+  disableSpecial1stPost = true
+  description = "Security, Homelab und Machine-Learning-Notizen aus Wien"
+
+[params.homeInfoParams]
+  Title = "Hey, I am Gerhard"
+  Content = "I write about stuff."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/gonlyplease"
+[[params.socialIcons]]
+  name = "rss"
+  url = "/index.xml"
+
