@@ -1,6 +1,6 @@
 +++
 date = '2026-09-11T17:05:22+02:00'
-draft = false
+draft = true
 title = 'How I Use and Not Use Ai'
 +++
 
